@@ -143,6 +143,10 @@ int main(){
     return 0;
 }
 
+
+//Convertir el caracter a ascii 
+//Restando el caracter espacio (' '=32) obtenemos el index del array
+//Si tenemos caracter inválido lo reemplazamos con espacio
 const unsigned char* character(char c){
     c = c & 0x7F;
     if (c < ' ') {
