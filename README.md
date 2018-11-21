@@ -1,1 +1,1 @@
-# SenseHatRaspi_CProgramming
+# SenseHat with Raspberry using C-Programming
